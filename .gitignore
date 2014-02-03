@@ -1,0 +1,6 @@
+# roms
+*.gbc
+
+# generated
+*.pyc
+
