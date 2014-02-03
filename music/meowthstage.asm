@@ -1,20 +1,20 @@
-Music_MewothStage: ; 496fe
-	dbw $c0, Music_MewothStage_Ch1
-	dbw $01, Music_MewothStage_Ch2
-	dbw $02, Music_MewothStage_Ch3
-	dbw $03, Music_MewothStage_Ch4
+Music_MeowthStage: ; 496fe
+	dbw $c0, Music_MeowthStage_Ch1
+	dbw $01, Music_MeowthStage_Ch2
+	dbw $02, Music_MeowthStage_Ch3
+	dbw $03, Music_MeowthStage_Ch4
 ; 4970a
 
 
-Music_MewothStage_Ch1: ; 4970a
+Music_MeowthStage_Ch1: ; 4970a
 	tempo 96
 	volume $77
 	vibrato $12, $24
 	dutycycle $3
 	notetype $8, $93
-	callchannel Music_MewothStage_branch_497e7
+	callchannel Music_MeowthStage_branch_497e7
 
-Music_MewothStage_branch_4971a: ; 4971a
+Music_MeowthStage_branch_4971a: ; 4971a
 	intensity $91
 	octave 3
 	note __, 6
@@ -45,7 +45,7 @@ Music_MewothStage_branch_4971a: ; 4971a
 	note __, 2
 	note C#, 4
 	note __, 2
-	callchannel Music_MewothStage_branch_49804
+	callchannel Music_MeowthStage_branch_49804
 	intensity $91
 	note __, 6
 	note G_, 4
@@ -100,7 +100,7 @@ Music_MewothStage_branch_4971a: ; 4971a
 	note __, 2
 	note C#, 4
 	note __, 2
-	callchannel Music_MewothStage_branch_49804
+	callchannel Music_MeowthStage_branch_49804
 	intensity $97
 	note A#, 4
 	note B_, 2
@@ -116,7 +116,7 @@ Music_MewothStage_branch_4971a: ; 4971a
 	octave 4
 	note D#, 14
 	note __, 10
-	callchannel Music_MewothStage_branch_49814
+	callchannel Music_MeowthStage_branch_49814
 	intensity $97
 	note B_, 14
 	note __, 2
@@ -143,7 +143,7 @@ Music_MewothStage_branch_4971a: ; 4971a
 	intensity $91
 	note E_, 6
 	note D#, 2
-	callchannel Music_MewothStage_branch_49814
+	callchannel Music_MeowthStage_branch_49814
 	intensity $97
 	note E_, 14
 	note __, 2
@@ -171,12 +171,12 @@ Music_MewothStage_branch_4971a: ; 4971a
 	note C#, 10
 	note __, 4
 	forceoctave $c
-	callchannel Music_MewothStage_branch_497e7
+	callchannel Music_MeowthStage_branch_497e7
 	forceoctave $0
-	loopchannel 0, Music_MewothStage_branch_4971a
+	loopchannel 0, Music_MeowthStage_branch_4971a
 ; 497e7
 
-Music_MewothStage_branch_497e7: ; 497e7
+Music_MeowthStage_branch_497e7: ; 497e7
 	intensity $91
 	octave 2
 	note A#, 4
@@ -203,7 +203,7 @@ Music_MewothStage_branch_497e7: ; 497e7
 	endchannel
 ; 49804
 
-Music_MewothStage_branch_49804: ; 49804
+Music_MeowthStage_branch_49804: ; 49804
 	intensity $91
 	octave 3
 	note __, 6
@@ -221,7 +221,7 @@ Music_MewothStage_branch_49804: ; 49804
 	endchannel
 ; 49814
 
-Music_MewothStage_branch_49814: ; 49814
+Music_MeowthStage_branch_49814: ; 49814
 	intensity $91
 	octave 4
 	note G_, 4
@@ -263,15 +263,15 @@ Music_MewothStage_branch_49814: ; 49814
 	note G#, 2
 	endchannel
 
-Music_MewothStage_Ch2: ; 49841
+Music_MeowthStage_Ch2: ; 49841
 	vibrato $12, $24
 	dutycycle $3
 	notetype $8, $b3
-	callchannel Music_MewothStage_branch_4993c
+	callchannel Music_MeowthStage_branch_4993c
 
-Music_MewothStage_branch_4984c: ; 4984c
-	callchannel Music_MewothStage_branch_4995b
-	callchannel Music_MewothStage_branch_499bb
+Music_MeowthStage_branch_4984c: ; 4984c
+	callchannel Music_MeowthStage_branch_4995b
+	callchannel Music_MeowthStage_branch_499bb
 	intensity $b1
 	octave 4
 	note F#, 4
@@ -328,8 +328,8 @@ Music_MewothStage_branch_4984c: ; 4984c
 	note D#, 1
 	intensity $68
 	note D_, 1
-	callchannel Music_MewothStage_branch_4995b
-	callchannel Music_MewothStage_branch_499bb
+	callchannel Music_MeowthStage_branch_4995b
+	callchannel Music_MeowthStage_branch_499bb
 	intensity $b7
 	octave 4
 	note F#, 4
@@ -364,7 +364,7 @@ Music_MewothStage_branch_4984c: ; 4984c
 	intensity $78
 	octave 4
 	note A_, 1
-	callchannel Music_MewothStage_branch_499e5
+	callchannel Music_MeowthStage_branch_499e5
 	intensity $b7
 	note G#, 14
 	intensity $18
@@ -399,7 +399,7 @@ Music_MewothStage_branch_4984c: ; 4984c
 	note C#, 6
 	octave 4
 	note B_, 2
-	callchannel Music_MewothStage_branch_499e5
+	callchannel Music_MeowthStage_branch_499e5
 	intensity $b7
 	note G#, 14
 	intensity $18
@@ -434,12 +434,12 @@ Music_MewothStage_branch_4984c: ; 4984c
 	note F#, 2
 	note __, 2
 	forceoctave $c
-	callchannel Music_MewothStage_branch_4993c
+	callchannel Music_MeowthStage_branch_4993c
 	forceoctave $0
-	loopchannel 0, Music_MewothStage_branch_4984c
+	loopchannel 0, Music_MeowthStage_branch_4984c
 ; 4993c
 
-Music_MewothStage_branch_4993c: ; 4993c
+Music_MeowthStage_branch_4993c: ; 4993c
 	intensity $b1
 	octave 3
 	note F#, 4
@@ -466,7 +466,7 @@ Music_MewothStage_branch_4993c: ; 4993c
 	endchannel
 ; 4995b
 
-Music_MewothStage_branch_4995b: ; 4995b
+Music_MeowthStage_branch_4995b: ; 4995b
 	intensity $b7
 	octave 4
 	note D#, 1
@@ -543,7 +543,7 @@ Music_MewothStage_branch_4995b: ; 4995b
 	endchannel
 ; 499bb
 
-Music_MewothStage_branch_499bb: ; 499bb
+Music_MeowthStage_branch_499bb: ; 499bb
 	intensity $b7
 	octave 4
 	note C#, 1
@@ -581,7 +581,7 @@ Music_MewothStage_branch_499bb: ; 499bb
 	endchannel
 ; 499e5
 
-Music_MewothStage_branch_499e5: ; 499e5
+Music_MeowthStage_branch_499e5: ; 499e5
 	intensity $b1
 	octave 4
 	note A#, 4
@@ -628,12 +628,12 @@ Music_MewothStage_branch_499e5: ; 499e5
 	note B_, 2
 	endchannel
 
-Music_MewothStage_Ch3: ; 49a1b
+Music_MeowthStage_Ch3: ; 49a1b
 	notetype $8, $22
-	callchannel Music_MewothStage_branch_49add
+	callchannel Music_MeowthStage_branch_49add
 
-Music_MewothStage_branch_49a21: ; 49a21
-	callchannel Music_MewothStage_branch_49af9
+Music_MeowthStage_branch_49a21: ; 49a21
+	callchannel Music_MeowthStage_branch_49af9
 	octave 3
 	note E_, 2
 	note __, 2
@@ -666,7 +666,7 @@ Music_MewothStage_branch_49a21: ; 49a21
 	note __, 2
 	note A#, 4
 	note __, 2
-	callchannel Music_MewothStage_branch_49af9
+	callchannel Music_MeowthStage_branch_49af9
 	octave 2
 	note A#, 4
 	note B_, 2
@@ -692,7 +692,7 @@ Music_MewothStage_branch_49a21: ; 49a21
 	note __, 2
 	note A_, 4
 	note __, 2
-	callchannel Music_MewothStage_branch_49b66
+	callchannel Music_MeowthStage_branch_49b66
 	octave 2
 	note E_, 2
 	note __, 2
@@ -752,7 +752,7 @@ Music_MewothStage_branch_49a21: ; 49a21
 	note __, 4
 	note F#, 2
 	note __, 4
-	callchannel Music_MewothStage_branch_49b66
+	callchannel Music_MeowthStage_branch_49b66
 	octave 2
 	note B_, 2
 	note __, 2
@@ -801,12 +801,12 @@ Music_MewothStage_branch_49a21: ; 49a21
 	note C#, 4
 	note __, 2
 	forceoctave $c
-	callchannel Music_MewothStage_branch_49add
+	callchannel Music_MeowthStage_branch_49add
 	forceoctave $0
-	loopchannel 0, Music_MewothStage_branch_49a21
+	loopchannel 0, Music_MeowthStage_branch_49a21
 ; 49add
 
-Music_MewothStage_branch_49add: ; 49add
+Music_MeowthStage_branch_49add: ; 49add
 	octave 1
 	note F#, 1
 	note __, 3
@@ -837,7 +837,7 @@ Music_MewothStage_branch_49add: ; 49add
 	endchannel
 ; 49af9
 
-Music_MewothStage_branch_49af9: ; 49af9
+Music_MeowthStage_branch_49af9: ; 49af9
 	octave 1
 	note B_, 2
 	note __, 2
@@ -949,7 +949,7 @@ Music_MewothStage_branch_49af9: ; 49af9
 	endchannel
 ; 49b66
 
-Music_MewothStage_branch_49b66: ; 49b66
+Music_MeowthStage_branch_49b66: ; 49b66
 	octave 2
 	note A#, 2
 	note __, 2
@@ -992,7 +992,7 @@ Music_MewothStage_branch_49b66: ; 49b66
 	note __, 2
 	endchannel
 
-Music_MewothStage_Ch4: ; 49b8f
+Music_MeowthStage_Ch4: ; 49b8f
 	togglenoise $1
 	notetype $c
 	note C_, 16
@@ -1004,38 +1004,38 @@ Music_MewothStage_Ch4: ; 49b8f
 	note G#, 4
 	note G_, 2
 
-Music_MewothStage_branch_49b9c: ; 49b9c
-	callchannel Music_MewothStage_branch_49bf0
-	callchannel Music_MewothStage_branch_49bf9
+Music_MeowthStage_branch_49b9c: ; 49b9c
+	callchannel Music_MeowthStage_branch_49bf0
+	callchannel Music_MeowthStage_branch_49bf9
 
-Music_MewothStage_branch_49ba2: ; 49ba2
-	callchannel Music_MewothStage_branch_49bf0
-	loopchannel 7, Music_MewothStage_branch_49ba2
-	callchannel Music_MewothStage_branch_49bf9
+Music_MeowthStage_branch_49ba2: ; 49ba2
+	callchannel Music_MeowthStage_branch_49bf0
+	loopchannel 7, Music_MeowthStage_branch_49ba2
+	callchannel Music_MeowthStage_branch_49bf9
 
-Music_MewothStage_branch_49bac: ; 49bac
-	callchannel Music_MewothStage_branch_49bf0
-	loopchannel 5, Music_MewothStage_branch_49bac
+Music_MeowthStage_branch_49bac: ; 49bac
+	callchannel Music_MeowthStage_branch_49bf0
+	loopchannel 5, Music_MeowthStage_branch_49bac
 	notetype $c
 	note G_, 16
 	notetype $8
-	callchannel Music_MewothStage_branch_49bf0
-	callchannel Music_MewothStage_branch_49bf9
-	callchannel Music_MewothStage_branch_49bf0
-	callchannel Music_MewothStage_branch_49bf9
+	callchannel Music_MeowthStage_branch_49bf0
+	callchannel Music_MeowthStage_branch_49bf9
+	callchannel Music_MeowthStage_branch_49bf0
+	callchannel Music_MeowthStage_branch_49bf9
 
-Music_MewothStage_branch_49bc4: ; 49bc4
-	callchannel Music_MewothStage_branch_49bf0
-	loopchannel 3, Music_MewothStage_branch_49bc4
-	callchannel Music_MewothStage_branch_49bf9
-	callchannel Music_MewothStage_branch_49bf0
-	callchannel Music_MewothStage_branch_49bf9
-	callchannel Music_MewothStage_branch_49bf0
-	callchannel Music_MewothStage_branch_49bf9
+Music_MeowthStage_branch_49bc4: ; 49bc4
+	callchannel Music_MeowthStage_branch_49bf0
+	loopchannel 3, Music_MeowthStage_branch_49bc4
+	callchannel Music_MeowthStage_branch_49bf9
+	callchannel Music_MeowthStage_branch_49bf0
+	callchannel Music_MeowthStage_branch_49bf9
+	callchannel Music_MeowthStage_branch_49bf0
+	callchannel Music_MeowthStage_branch_49bf9
 
-Music_MewothStage_branch_49bda: ; 49bda
-	callchannel Music_MewothStage_branch_49bf0
-	loopchannel 4, Music_MewothStage_branch_49bda
+Music_MeowthStage_branch_49bda: ; 49bda
+	callchannel Music_MeowthStage_branch_49bf0
+	loopchannel 4, Music_MeowthStage_branch_49bda
 	notetype $c
 	note __, 16
 	note __, 8
@@ -1045,10 +1045,10 @@ Music_MewothStage_branch_49bda: ; 49bda
 	note G_, 2
 	note G#, 4
 	note G_, 2
-	loopchannel 0, Music_MewothStage_branch_49b9c
+	loopchannel 0, Music_MeowthStage_branch_49b9c
 ; 49bf0
 
-Music_MewothStage_branch_49bf0: ; 49bf0
+Music_MeowthStage_branch_49bf0: ; 49bf0
 	note G#, 4
 	note G_, 2
 	note G_, 4
@@ -1060,7 +1060,7 @@ Music_MewothStage_branch_49bf0: ; 49bf0
 	endchannel
 ; 49bf9
 
-Music_MewothStage_branch_49bf9: ; 49bf9
+Music_MeowthStage_branch_49bf9: ; 49bf9
 	note G_, 1
 	note G_, 1
 	note G_, 2
